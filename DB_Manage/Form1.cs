@@ -16,5 +16,9 @@ namespace DB_Manage
         {
             InitializeComponent();
         }
+        private void Assign()
+        {
+
+        }
     }
 }
