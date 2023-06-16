@@ -1,6 +1,6 @@
 ﻿namespace DB_Manage
 {
-    partial class Form1
+    partial class frmDBEdit
     {
         /// <summary>
         /// Required designer variable.
@@ -28,149 +28,167 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
+            this.TxtAddTable = new DevExpress.XtraEditors.TextEdit();
+            this.TxtDeleteTable = new DevExpress.XtraEditors.TextEdit();
+            this.BtnChooseDB = new DevExpress.XtraEditors.SimpleButton();
+            this.LBTableList = new DevExpress.XtraEditors.ListBoxControl();
+            this.Lbl_TableList = new DevExpress.XtraEditors.LabelControl();
+            this.BtnAddTable = new DevExpress.XtraEditors.SimpleButton();
+            this.BtnDeleteTable = new DevExpress.XtraEditors.SimpleButton();
+            this.Lbl_ChoosenDBName = new DevExpress.XtraEditors.LabelControl();
+            this.LblChoosenDBName = new DevExpress.XtraEditors.LabelControl();
+            this.BtnExitDB = new DevExpress.XtraEditors.SimpleButton();
+            this.Lbl_FormName = new DevExpress.XtraEditors.LabelControl();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtAddTable.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtDeleteTable.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LBTableList)).BeginInit();
             this.SuspendLayout();
             // 
-            // labelControl1
+            // TxtAddTable
             // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(67, 53);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(75, 21);
-            this.labelControl1.TabIndex = 0;
-            this.labelControl1.Text = "Add Table";
+            this.TxtAddTable.Location = new System.Drawing.Point(439, 85);
+            this.TxtAddTable.Name = "TxtAddTable";
+            this.TxtAddTable.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.TxtAddTable.Properties.Appearance.Options.UseFont = true;
+            this.TxtAddTable.Size = new System.Drawing.Size(135, 28);
+            this.TxtAddTable.TabIndex = 4;
             // 
-            // labelControl2
+            // TxtDeleteTable
             // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(67, 126);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(95, 21);
-            this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "Delete Table";
+            this.TxtDeleteTable.Location = new System.Drawing.Point(439, 175);
+            this.TxtDeleteTable.Name = "TxtDeleteTable";
+            this.TxtDeleteTable.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.TxtDeleteTable.Properties.Appearance.Options.UseFont = true;
+            this.TxtDeleteTable.Size = new System.Drawing.Size(135, 28);
+            this.TxtDeleteTable.TabIndex = 5;
             // 
-            // labelControl4
+            // BtnChooseDB
             // 
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(67, 199);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(66, 21);
-            this.labelControl4.TabIndex = 3;
-            this.labelControl4.Text = "Open DB";
+            this.BtnChooseDB.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.BtnChooseDB.Appearance.Options.UseFont = true;
+            this.BtnChooseDB.Location = new System.Drawing.Point(26, 88);
+            this.BtnChooseDB.Name = "BtnChooseDB";
+            this.BtnChooseDB.Size = new System.Drawing.Size(120, 30);
+            this.BtnChooseDB.TabIndex = 8;
+            this.BtnChooseDB.Text = "Choose DB";
             // 
-            // textEdit1
+            // LBTableList
             // 
-            this.textEdit1.Location = new System.Drawing.Point(212, 53);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(100, 20);
-            this.textEdit1.TabIndex = 4;
+            this.LBTableList.Location = new System.Drawing.Point(292, 39);
+            this.LBTableList.Name = "LBTableList";
+            this.LBTableList.Size = new System.Drawing.Size(127, 166);
+            this.LBTableList.TabIndex = 10;
             // 
-            // textEdit2
+            // Lbl_TableList
             // 
-            this.textEdit2.Location = new System.Drawing.Point(212, 126);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(100, 20);
-            this.textEdit2.TabIndex = 5;
+            this.Lbl_TableList.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.Lbl_TableList.Appearance.Options.UseFont = true;
+            this.Lbl_TableList.Location = new System.Drawing.Point(319, 12);
+            this.Lbl_TableList.Name = "Lbl_TableList";
+            this.Lbl_TableList.Size = new System.Drawing.Size(72, 21);
+            this.Lbl_TableList.TabIndex = 11;
+            this.Lbl_TableList.Text = "Table List";
             // 
-            // textEdit4
+            // BtnAddTable
             // 
-            this.textEdit4.Location = new System.Drawing.Point(212, 199);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(100, 20);
-            this.textEdit4.TabIndex = 7;
+            this.BtnAddTable.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.BtnAddTable.Appearance.Options.UseFont = true;
+            this.BtnAddTable.Location = new System.Drawing.Point(439, 39);
+            this.BtnAddTable.Name = "BtnAddTable";
+            this.BtnAddTable.Size = new System.Drawing.Size(135, 30);
+            this.BtnAddTable.TabIndex = 12;
+            this.BtnAddTable.Text = "Add Table";
             // 
-            // simpleButton1
+            // BtnDeleteTable
             // 
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.Location = new System.Drawing.Point(318, 198);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(107, 23);
-            this.simpleButton1.TabIndex = 8;
-            this.simpleButton1.Text = "Browse";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            this.BtnDeleteTable.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.BtnDeleteTable.Appearance.Options.UseFont = true;
+            this.BtnDeleteTable.Location = new System.Drawing.Point(439, 129);
+            this.BtnDeleteTable.Name = "BtnDeleteTable";
+            this.BtnDeleteTable.Size = new System.Drawing.Size(135, 30);
+            this.BtnDeleteTable.TabIndex = 13;
+            this.BtnDeleteTable.Text = "Delete Table";
             // 
-            // simpleButton2
+            // Lbl_ChoosenDBName
             // 
-            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.simpleButton2.Appearance.Options.UseFont = true;
-            this.simpleButton2.Location = new System.Drawing.Point(576, 89);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(73, 96);
-            this.simpleButton2.TabIndex = 9;
-            this.simpleButton2.Text = "Update\r\nTable";
+            this.Lbl_ChoosenDBName.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.Lbl_ChoosenDBName.Appearance.Options.UseFont = true;
+            this.Lbl_ChoosenDBName.Location = new System.Drawing.Point(26, 139);
+            this.Lbl_ChoosenDBName.Name = "Lbl_ChoosenDBName";
+            this.Lbl_ChoosenDBName.Size = new System.Drawing.Size(138, 21);
+            this.Lbl_ChoosenDBName.TabIndex = 14;
+            this.Lbl_ChoosenDBName.Text = "Choosen DB Name";
             // 
-            // listBoxControl1
+            // LblChoosenDBName
             // 
-            this.listBoxControl1.Location = new System.Drawing.Point(431, 53);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(127, 166);
-            this.listBoxControl1.TabIndex = 10;
+            this.LblChoosenDBName.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.LblChoosenDBName.Appearance.Options.UseFont = true;
+            this.LblChoosenDBName.Location = new System.Drawing.Point(26, 166);
+            this.LblChoosenDBName.Name = "LblChoosenDBName";
+            this.LblChoosenDBName.Size = new System.Drawing.Size(6, 21);
+            this.LblChoosenDBName.TabIndex = 15;
+            this.LblChoosenDBName.Text = "-";
             // 
-            // labelControl3
+            // BtnExitDB
             // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(431, 26);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(72, 21);
-            this.labelControl3.TabIndex = 11;
-            this.labelControl3.Text = "Table List";
+            this.BtnExitDB.Appearance.Font = new System.Drawing.Font("Tahoma", 13F);
+            this.BtnExitDB.Appearance.Options.UseFont = true;
+            this.BtnExitDB.Location = new System.Drawing.Point(152, 88);
+            this.BtnExitDB.Name = "BtnExitDB";
+            this.BtnExitDB.Size = new System.Drawing.Size(120, 30);
+            this.BtnExitDB.TabIndex = 16;
+            this.BtnExitDB.Text = "Exit DB";
             // 
-            // Form1
+            // Lbl_FormName
+            // 
+            this.Lbl_FormName.Appearance.Font = new System.Drawing.Font("Tahoma", 18F);
+            this.Lbl_FormName.Appearance.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.Lbl_FormName.Appearance.Options.UseFont = true;
+            this.Lbl_FormName.Appearance.Options.UseForeColor = true;
+            this.Lbl_FormName.Location = new System.Drawing.Point(78, 28);
+            this.Lbl_FormName.Name = "Lbl_FormName";
+            this.Lbl_FormName.Size = new System.Drawing.Size(140, 29);
+            this.Lbl_FormName.TabIndex = 17;
+            this.Lbl_FormName.Text = "DB Edit Form";
+            // 
+            // frmDBEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(664, 254);
-            this.Controls.Add(this.labelControl3);
-            this.Controls.Add(this.listBoxControl1);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.textEdit4);
-            this.Controls.Add(this.textEdit2);
-            this.Controls.Add(this.textEdit1);
-            this.Controls.Add(this.labelControl4);
-            this.Controls.Add(this.labelControl2);
-            this.Controls.Add(this.labelControl1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
+            this.ClientSize = new System.Drawing.Size(591, 216);
+            this.Controls.Add(this.Lbl_FormName);
+            this.Controls.Add(this.BtnExitDB);
+            this.Controls.Add(this.LblChoosenDBName);
+            this.Controls.Add(this.Lbl_ChoosenDBName);
+            this.Controls.Add(this.BtnDeleteTable);
+            this.Controls.Add(this.BtnAddTable);
+            this.Controls.Add(this.Lbl_TableList);
+            this.Controls.Add(this.LBTableList);
+            this.Controls.Add(this.BtnChooseDB);
+            this.Controls.Add(this.TxtDeleteTable);
+            this.Controls.Add(this.TxtAddTable);
+            this.Name = "frmDBEdit";
+            this.Text = "DB Edit";
+            ((System.ComponentModel.ISupportInitialize)(this.TxtAddTable.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtDeleteTable.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LBTableList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.LabelControl labelControl4;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
-        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.TextEdit TxtAddTable;
+        private DevExpress.XtraEditors.TextEdit TxtDeleteTable;
+        private DevExpress.XtraEditors.SimpleButton BtnChooseDB;
+        private DevExpress.XtraEditors.ListBoxControl LBTableList;
+        private DevExpress.XtraEditors.LabelControl Lbl_TableList;
+        private DevExpress.XtraEditors.SimpleButton BtnAddTable;
+        private DevExpress.XtraEditors.SimpleButton BtnDeleteTable;
+        private DevExpress.XtraEditors.LabelControl Lbl_ChoosenDBName;
+        private DevExpress.XtraEditors.LabelControl LblChoosenDBName;
+        private DevExpress.XtraEditors.SimpleButton BtnExitDB;
+        private DevExpress.XtraEditors.LabelControl Lbl_FormName;
     }
 }
 

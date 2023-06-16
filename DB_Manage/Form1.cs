@@ -10,18 +10,13 @@ using System.Windows.Forms;
 
 namespace DB_Manage
 {
-    public partial class Form1 : Form
+    public partial class frmDBEdit : Form
     {
-        public Form1()
+        public frmDBEdit()
         {
             InitializeComponent();
         }
         private void Assign()
-        {
-
-        }
-
-        private void simpleButton1_Click(object sender, EventArgs e)
         {
 
         }
