@@ -20,5 +20,10 @@ namespace DB_Manage
         {
 
         }
+
+        private void BtnChooseDB_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
