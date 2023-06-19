@@ -25,5 +25,17 @@ namespace DB_Manage
         {
 
         }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            if (labelControl4.Text == "Yasin")
+            {
+                labelControl4.Text = "Deneme";
+            }
+            else
+            {
+                labelControl4.Text = "Yasin";
+            }
+        }
     }
 }
